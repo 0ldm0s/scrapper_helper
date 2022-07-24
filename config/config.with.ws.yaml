@@ -1,0 +1,10 @@
+blueprint:
+  - main:
+      class: web.main
+websocket:
+  - WSHandler:
+      class: web.main.websocket
+      path: /websocket
+config:
+  csrf:
+    enable: false

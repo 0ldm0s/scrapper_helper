@@ -1,0 +1,6 @@
+blueprint:
+  - main:
+      class: web.main
+config:
+  csrf:
+    enable: false
